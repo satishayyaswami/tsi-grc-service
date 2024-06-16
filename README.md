@@ -1,6 +1,6 @@
 ## TSI GRC Service
 
-TSI LOS Service, a part of TSI Digital Accelerator, exposes core backend services of a IT Governance, Risk & Compliance Solution as REST APIs.
+TSI GRC Service, a part of TSI Digital Accelerator, exposes core backend services of a IT Governance, Risk & Compliance Solution as REST APIs.
 
 ### Getting Started
 
