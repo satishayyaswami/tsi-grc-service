@@ -25,4 +25,5 @@
 24=CREATE TABLE IF NOT EXISTS _project (project_id integer primary key generated always as identity,type VARCHAR(20),title VARCHAR(255),desc TEXT,status VARCHAR(20),docs JSON,plan JSON,active SMALLINT NOT NULL DEFAULT 1,created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP)
 25=CREATE TABLE IF NOT EXISTS _agreement (agreement_id integer primary key generated always as identity,vendor VARCHAR(30),title VARCHAR(255),desc TEXT,quantity INTEGER,start_period date,end_period date,status VARCHAR(20),docs JSON,active SMALLINT NOT NULL DEFAULT 1,created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP)
 26=CREATE TABLE IF NOT EXISTS _bcp_drill (drill_id integer primary key generated always as identity,title VARCHAR(255),desc TEXT,activity_date date,docs JSON,status VARCHAR(20),docs JSON,active SMALLINT NOT NULL DEFAULT 1,created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP)
+27=CREATE TABLE IF NOT EXISTS _best_practices (bp_id integer primary key generated always as identity,title VARCHAR(255),desc TEXT,active SMALLINT NOT NULL DEFAULT 1,created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP)
 
